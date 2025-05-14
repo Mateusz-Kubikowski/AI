@@ -11,7 +11,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 
 # Ustaw swój API key tutaj
-GENAI_API_KEY = os.environ.get("GOOGLE_API_KEY", "Your_Gemini_API_Key
+GENAI_API_KEY = os.environ.get("GOOGLE_API_KEY", "Your_Gemini_API_Key")
 
 # Konfiguracja Gemini
 genai.configure(api_key=GENAI_API_KEY)
